@@ -22,6 +22,8 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 0,
     'import/extensions': 0,
+    'import/no-named-as-default': 0,
+    'import/no-named-as-default-member': 0,
     'react/prop-types': 0,
     'linebreak-style': 0,
     'react/state-in-constructor': 0,
