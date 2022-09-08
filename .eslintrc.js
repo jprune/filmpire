@@ -10,11 +10,8 @@ module.exports = {
   overrides: [
   ],
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 'latest',
     sourceType: 'module',
-    ecmaFeatures: {
-      modules: true,
-    },
   },
   plugins: [
     'react',
