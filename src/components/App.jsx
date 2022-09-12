@@ -6,7 +6,7 @@ import useStyles from './styles';
 
 import { Actors, MovieInformation, Movies, NavBar, Profile } from '.';
 
-const App = () => {
+function App() {
   const classes = useStyles();
 
   return (
@@ -22,7 +22,7 @@ const App = () => {
           <Route exact path="/actors/:id">
             <Actors />
           </Route>
-          <Route exact path="/">
+          <Route exact path={['/', '/approved']}>
             <Movies />
           </Route>
           <Route exact path="/profile/:id">
@@ -32,6 +32,6 @@ const App = () => {
       </main>
     </div>
   );
-};
+}
 
 export default App;
