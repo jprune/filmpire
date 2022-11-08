@@ -1,7 +1,6 @@
 {
   "name": "filmpire",
   "version": "0.1.0",
-  "homepage": "https://jprune.github.io/nft_marketplace_showcase_website",
   "private": true,
   "dependencies": {
     "@alan-ai/alan-sdk-web": "^1.8.28",
@@ -23,8 +22,6 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-+   "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
